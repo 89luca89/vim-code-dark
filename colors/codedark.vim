@@ -98,7 +98,7 @@ let s:cdDiffRedLightLight = {'gui': '#FB0101', 'cterm': s:cterm08, 'cterm256': '
 let s:cdDiffGreenDark = {'gui': '#373D29', 'cterm': s:cterm0B, 'cterm256': '237'}
 let s:cdDiffGreenLight = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'}
 
-let s:cdSearchCurrent = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'} 
+let s:cdSearchCurrent = {'gui': '#4B5632', 'cterm': s:cterm09, 'cterm256': '58'}
 let s:cdSearch = {'gui': '#264F78', 'cterm': s:cterm03, 'cterm256': '24'}
 
 " Syntax colors:
@@ -463,3 +463,14 @@ call <sid>hi('sqlOperator', s:cdPink, {}, 'none', {})
 call <sid>hi('yamlKey', s:cdBlue, {}, 'none', {})
 call <sid>hi('yamlConstant', s:cdBlue, {}, 'none', {})
 
+" C++ color_coded
+call <sid>hi('StructDecl', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('UnionDecl', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('ClassDecl', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('TypeRef', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('EnumDecl', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('TemplateTypeParameter', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('ClassTemplate', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('TemplateRef', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('ClassTemplatePartialSpecialization', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('TemplateTemplateParameter', s:cdBlueGreen, {}, 'none', {})
