@@ -19,6 +19,31 @@ It includes:
    - Better YAML Syntax
    - Italic for Comments and Functions by default
 
+
+### Add assignation highlight, better function highlihgt (Cross-lang)
+
+Add to your `.vimrc` :
+
+```
+autocmd Syntax,InsertEnter * syntax match myFunction /\<\k\+\ze(/
+autocmd Syntax,InsertEnter * syntax match myDeclaration_1 /\<\k\+\ze\s*=[a-zA-Z0-9 $:.\/\\]/
+autocmd Syntax,InsertEnter * syntax match myDeclaration_2 /\<.*\k\+\ze\s*:=[a-zA-Z0-9 $:.\/\\]/
+highlight link myFunction   Function
+highlight link myDeclaration_1   Identifier
+highlight link myDeclaration_2   Identifier
+
+```
+Explanation:
+
+The first Syntax will highlight the various foo.**bar**(...) and **bar**(..)
+
+The second one will highliht all the foo=bar, foo = bar but NOT foo += bar, foo == bar and so on
+
+The third one, is GOLANG specific, will allow 2 or ome assigments and support `:=`, so  
+`foo, bar, baz, _ := ...` will work.
+
+Then link to the correspondent groups.
+
 ---
 
 **:exclamation: To install and enable this colorscheme, [read installation instructions](#installation).**
