@@ -488,8 +488,6 @@ call <sid>hi('MemberRefExpr', s:cdYellow, {}, 'italic', {})
 call <sid>hi('Namespace', s:cdSilver, {}, 'none', {})
 call <sid>hi('NamespaceRef', s:cdSilver, {}, 'none', {})
 call <sid>hi('NamespaceAlias', s:cdSilver, {}, 'none', {})
-<<<<<<< HEAD
-=======
 " SQL:
 call <sid>hi('sqlKeyword', s:cdPink, {}, 'none', {})
 call <sid>hi('sqlFunction', s:cdYellowOrange, {}, 'none', {})
@@ -497,4 +495,3 @@ call <sid>hi('sqlOperator', s:cdPink, {}, 'none', {})
 " SH:
 call <sid>hi('shDeref', s:cdCyan, {}, 'none', {})
 call <sid>hi('shVariable', s:cdCyan, {}. 'none'. {})
->>>>>>> bef5e85... Add SH keywords, make Special lightGreen
