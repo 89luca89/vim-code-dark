@@ -50,22 +50,6 @@ Then link to the correspondent groups.
 
 *This colorscheme does also support 256 and 8/16 color terminals. See [installation instructions](#installation) step 3.*
 
-## Screenshots
-
-### gVim / modern terminals
-![Ruby and NERDTree](https://cloud.githubusercontent.com/assets/10374559/23333137/b86efaa0-fb86-11e6-8c06-813f81c1f9bb.png)
-![Editing HTML and CSS](https://cloud.githubusercontent.com/assets/10374559/23344709/459972a2-fc81-11e6-9b50-c432d998caef.png)
-
-*Code samples [1](http://sandbox.mc.edu/~bennet/ruby/code/), [2](https://tmtheme-editor.herokuapp.com/), [`nerdtree`](https://github.com/scrooloose/nerdtree)*
-
-### Terminals with limited color support
-
-#### Fixed 256 colors
-![Terminal on Debian with 256 colors](https://cloud.githubusercontent.com/assets/10374559/23342967/e61e28c6-fc63-11e6-9ccf-d6189b9e1b61.png)
-
-#### Fixed 8/16 colors
-![Terminal on Debian with 16 colors](https://cloud.githubusercontent.com/assets/10374559/23341713/0e8dd778-fc4d-11e6-8430-b11f161305d7.png)
-
 ## Color Palette
 
 ![Color Palette](https://cloud.githubusercontent.com/assets/10374559/23341312/1961f416-fc45-11e6-83ba-d7180c5fdd6d.png)
