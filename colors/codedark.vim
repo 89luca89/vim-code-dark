@@ -17,18 +17,18 @@ elseif !exists("g:codedark_term256")
     let g:codedark_term256=0
 endif
 fun! <sid>hi(group, fg, bg, attr, sp)
-  if !empty(a:fg)
-    exec "hi " . a:group . " guifg=" . a:fg.gui . " ctermfg=" . (g:codedark_term256 ? a:fg.cterm256 : a:fg.cterm)
-  endif
-  if !empty(a:bg)
-    exec "hi " . a:group . " guibg=" . a:bg.gui . " ctermbg=" . (g:codedark_term256 ? a:bg.cterm256 : a:bg.cterm)
-  endif
-  if a:attr != ""
-    exec "hi " . a:group . " gui=" . a:attr . " cterm=" . a:attr
-  endif
-  if !empty(a:sp)
-    exec "hi " . a:group . " guisp=" . a:sp.gui
-  endif
+    if !empty(a:fg)
+        exec "hi " . a:group . " guifg=" . a:fg.gui . " ctermfg=" . (g:codedark_term256 ? a:fg.cterm256 : a:fg.cterm)
+    endif
+    if !empty(a:bg)
+        exec "hi " . a:group . " guibg=" . a:bg.gui . " ctermbg=" . (g:codedark_term256 ? a:bg.cterm256 : a:bg.cterm)
+    endif
+    if a:attr != ""
+        exec "hi " . a:group . " gui=" . a:attr . " cterm=" . a:attr
+    endif
+    if !empty(a:sp)
+        exec "hi " . a:group . " guisp=" . a:sp.gui
+    endif
 endfun
 
 " ------------------
@@ -47,19 +47,19 @@ let s:cterm0C = "06"
 let s:cterm0D = "04"
 let s:cterm0E = "05"
 if exists('base16colorspace') && base16colorspace == "256"
-  let s:cterm01 = "18"
-  let s:cterm02 = "19"
-  let s:cterm04 = "20"
-  let s:cterm06 = "21"
-  let s:cterm09 = "16"
-  let s:cterm0F = "17"
+    let s:cterm01 = "18"
+    let s:cterm02 = "19"
+    let s:cterm04 = "20"
+    let s:cterm06 = "21"
+    let s:cterm09 = "16"
+    let s:cterm0F = "17"
 else
-  let s:cterm01 = "00"
-  let s:cterm02 = "08"
-  let s:cterm04 = "07"
-  let s:cterm06 = "07"
-  let s:cterm09 = "06"
-  let s:cterm0F = "03"
+    let s:cterm01 = "00"
+    let s:cterm02 = "08"
+    let s:cterm04 = "07"
+    let s:cterm06 = "07"
+    let s:cterm09 = "06"
+    let s:cterm0F = "03"
 endif
 
 " General appearance colors:
@@ -204,7 +204,7 @@ call <sid>hi('Structure', s:cdBlue, {}, 'none', {})
 call <sid>hi('Typedef', s:cdBlue, {}, 'none', {})
 call <sid>hi('ClassType', s:cdCyan, {}, 'none', {})
 
-call <sid>hi('Special', s:cdYellowOrange, {}, 'none', {})
+call <sid>hi('Special', s:cdLightGreen, {}, 'none', {})
 call <sid>hi('SpecialChar', s:cdFront, {}, 'none', {})
 call <sid>hi('Tag', s:cdFront, {}, 'none', {})
 call <sid>hi('Delimiter', s:cdFront, {}, 'none', {})
@@ -488,3 +488,13 @@ call <sid>hi('MemberRefExpr', s:cdYellow, {}, 'italic', {})
 call <sid>hi('Namespace', s:cdSilver, {}, 'none', {})
 call <sid>hi('NamespaceRef', s:cdSilver, {}, 'none', {})
 call <sid>hi('NamespaceAlias', s:cdSilver, {}, 'none', {})
+<<<<<<< HEAD
+=======
+" SQL:
+call <sid>hi('sqlKeyword', s:cdPink, {}, 'none', {})
+call <sid>hi('sqlFunction', s:cdYellowOrange, {}, 'none', {})
+call <sid>hi('sqlOperator', s:cdPink, {}, 'none', {})
+" SH:
+call <sid>hi('shDeref', s:cdCyan, {}, 'none', {})
+call <sid>hi('shVariable', s:cdCyan, {}. 'none'. {})
+>>>>>>> bef5e85... Add SH keywords, make Special lightGreen
