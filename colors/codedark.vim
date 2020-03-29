@@ -204,7 +204,7 @@ call <sid>hi('Structure', s:cdBlue, {}, 'none', {})
 call <sid>hi('Typedef', s:cdBlue, {}, 'none', {})
 call <sid>hi('ClassType', s:cdCyan, {}, 'none', {})
 
-call <sid>hi('Special', s:cdLightGreen, {}, 'none', {})
+call <sid>hi('Special', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('SpecialChar', s:cdFront, {}, 'none', {})
 call <sid>hi('Tag', s:cdFront, {}, 'none', {})
 call <sid>hi('Delimiter', s:cdFront, {}, 'none', {})
@@ -494,4 +494,7 @@ call <sid>hi('sqlFunction', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('sqlOperator', s:cdPink, {}, 'none', {})
 " SH:
 call <sid>hi('shDeref', s:cdCyan, {}, 'none', {})
-call <sid>hi('shVariable', s:cdCyan, {}. 'none'. {})
+call <sid>hi('shVariable', s:cdCyan, {}, 'none', {})
+" YAML:
+call <sid>hi('yamlKey', s:cdBlue, {}, 'none', {})
+call <sid>hi('yamlConstant', s:cdBlue, {}, 'none', {})
