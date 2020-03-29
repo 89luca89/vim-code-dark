@@ -8,13 +8,14 @@ This version is a fork from the original project
 - [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark)
 
 It includes:
-    Better SQL Syntax from: [pull #49](https://github.com/tomasiser/vim-code-dark/pull/49)
-    Better C/C++ Syntax from: [pull #51](https://github.com/tomasiser/vim-code-dark/pull/51)
-    Better PHP Syntax from: [pull #46](https://github.com/tomasiser/vim-code-dark/pull/46)
-    Better SH Syntax 
-    Better Golang Syntax
-    Better YAML Syntax
-    Italic for Comments and Functions by default
+
+   - Better SQL Syntax from: [pull #49](https://github.com/tomasiser/vim-code-dark/pull/49)
+   - Better C/C++ Syntax from: [pull #51](https://github.com/tomasiser/vim-code-dark/pull/51)
+   - Better PHP Syntax from: [pull #46](https://github.com/tomasiser/vim-code-dark/pull/46)
+   - Better SH Syntax 
+   - Better Golang Syntax
+   - Better YAML Syntax
+   - Italic for Comments and Functions by default
 
 ---
 
