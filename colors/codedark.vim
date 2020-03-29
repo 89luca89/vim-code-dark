@@ -493,8 +493,8 @@ call <sid>hi('sqlKeyword', s:cdPink, {}, 'none', {})
 call <sid>hi('sqlFunction', s:cdYellowOrange, {}, 'none', {})
 call <sid>hi('sqlOperator', s:cdPink, {}, 'none', {})
 " SH:
-call <sid>hi('shDeref', s:cdCyan, {}, 'none', {})
-call <sid>hi('shVariable', s:cdCyan, {}, 'none', {})
+call <sid>hi('shDeref', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('shVariable', s:cdLightBlue, {}, 'none', {})
 " YAML:
 call <sid>hi('yamlKey', s:cdBlue, {}, 'none', {})
 call <sid>hi('yamlConstant', s:cdBlue, {}, 'none', {})
