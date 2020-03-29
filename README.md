@@ -1,6 +1,23 @@
 # vim-code-dark
 `vim-code-dark` is a dark **color scheme for [Vim](http://www.vim.org/)** heavily inspired by the look of the Dark+ scheme of [Visual Studio Code](https://code.visualstudio.com/). While many of the colors are same, there are additional colors for specific usage or reserved for future use. The scheme also defines specific GUI colors (e.g. popup menu) and fully supports [`vim-airline`](https://github.com/vim-airline/vim-airline).
 
+# Fork
+
+This version is a fork from the original project 
+
+- [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark)
+
+It includes:
+    Better SQL Syntax from: [pull #49](https://github.com/tomasiser/vim-code-dark/pull/49)
+    Better C/C++ Syntax from: [pull #51](https://github.com/tomasiser/vim-code-dark/pull/51)
+    Better PHP Syntax from: [pull #46](https://github.com/tomasiser/vim-code-dark/pull/46)
+    Better SH Syntax 
+    Better Golang Syntax
+    Better YAML Syntax
+    Italic for Comments and Functions by default
+
+---
+
 **:exclamation: To install and enable this colorscheme, [read installation instructions](#installation).**
 
 *This colorscheme does also support 256 and 8/16 color terminals. See [installation instructions](#installation) step 3.*
