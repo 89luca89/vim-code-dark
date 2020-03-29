@@ -7,6 +7,8 @@ This version is a fork from the original project
 
 - [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark)
 
+# Huge thanks to him for the hard work
+
 It includes:
 
    - Better SQL Syntax from: [pull #49](https://github.com/tomasiser/vim-code-dark/pull/49)
