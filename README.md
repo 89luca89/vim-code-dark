@@ -46,10 +46,11 @@ Then link to the correspondent groups.
 
 Before:
 
+![Screenshot from 2020-03-30 12-43-45](https://user-images.githubusercontent.com/598882/77904617-224e6000-7285-11ea-81c7-4eab1034d904.png)
 
 After:
 
-
+![Screenshot from 2020-03-30 12-44-18](https://user-images.githubusercontent.com/598882/77904624-237f8d00-7285-11ea-90e6-28d555ee415f.png)
 
 ---
 
