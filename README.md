@@ -44,6 +44,13 @@ The third one, is GOLANG specific, will allow 2 or ome assigments and support `:
 
 Then link to the correspondent groups.
 
+Before:
+
+
+After:
+
+
+
 ---
 
 **:exclamation: To install and enable this colorscheme, [read installation instructions](#installation).**
